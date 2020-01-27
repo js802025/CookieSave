@@ -3,8 +3,8 @@ function run() {
     setTimeout(buyUpgrades, 1000);
     setTimeout(beclicked, 2500);
     setTimeout(getseven, 7500)
-    setTimeout(fix, 14500)
-    setTimeout(save, 15500)
+    setTimeout(fix, 16000)
+    setTimeout(save, 17000)
 }
 
 function start() {
@@ -20,6 +20,8 @@ function start() {
     }  
 }
 function buyUpgrades() {
+	Game.Earn(10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+
 	for (let clicks = 0; clicks < 100; clicks++) {
     	document.getElementById("bigCookie").click()
     }
@@ -32,8 +34,13 @@ function getseven() {
   setTimeout(buyUpgrades, 4000); 
   setTimeout(beclicked, 5000); 
   setTimeout(buyUpgrades, 6000);
+  setTimeout(buyUpgrades, 7500);
 }
-
+function beclicked() {
+    for (let clicks = 0; clicks < 100; clicks++) {
+    	document.getElementById("bigCookie").click()
+    }
+}
 function fix() {
     for (let f = 0; f < 30; f++) {
         document.getElementById("product16").click();
