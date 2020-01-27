@@ -50,3 +50,4 @@ function fix() {
     Game.toSave = true; 
     location.reload(); 
   }
+run();
